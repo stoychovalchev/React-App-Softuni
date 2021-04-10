@@ -34,6 +34,10 @@ import Profile from "./pages/auth/Profile";
 import SingleUser from "./pages/SingleUser";
 import SearchResult from "./components/SearchResult";
 
+
+
+
+
 const App = () => {
   const { state } = useContext(AuthContext);
   const { user } = state;
@@ -95,7 +99,9 @@ const App = () => {
 
   return (
     <ApolloProvider client={client}>
+      
       <Nav />
+      
       <ToastContainer />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -124,7 +130,10 @@ const App = () => {
         <Route exact path="/post/:postid" component={SinglePost} />
         <Route exact path="/search/:query" component={SearchResult} />
       </Switch>
+      
     </ApolloProvider>
+    
+   
   );
 };
 

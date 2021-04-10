@@ -1,3 +1,69 @@
+
+body {
+    background-image: url(./components/background-image.jpg);
+    background-color: darkorange;
+    background-blend-mode: screen;
+}
+.card-body {
+    background: radial-gradient(orange, transparent);
+    border-style: inset;
+
+
+}
+.form-control {
+    background-color: white;
+}
 .activePagination {
     background-color: green;
+}
+
+.btn.btn-primary {
+    background-color: #00635a;
+    border-color: #00564e;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav-link {
+    background-color: #00635a;
+    border-color: #00564e;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.form-control {
+    border-color: outset;
 }
